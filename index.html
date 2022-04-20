@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Coderhouse</title>
+    <!--font awesom-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+    <!--custom css-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--sweet alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            
+            <img src="images/logo.png" alt="store logo">
+            <ul>
+                    <li><a href="">inicio</a></li>
+                    <li><a href="">contacto</a></li>
+                    <li><a href="html/login.html">Usuario</a></li>
+            </ul>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!--endNavbar-->
+
+    <!--banner-->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Book´s Collection</h1>
+            <button class="banner-btn"  >shop now</button>
+        </div>
+    </header>
+    <!--end banner-->
+
+    <!--products-->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+            <div class="products-center">
+                <!--single product-->
+                <article class="product">
+                    <div class="img-container">
+                        <img src="/images/product-1.jpeg" alt="product image" class="product-img">
+                        <button class="bag-btn" data-id="1">
+                            <i class="fas fa-shopping-cart"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                    <h3>El Señor de los anillos</h3>
+                    <h4>$1600</h4>
+                </article>
+                <!--end single product-->
+            </div>
+        </div>
+    </section>
+    <!--end products-->
+    <!--cart-->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                
+                onclick="mostrarFinalCompra()"
+                
+            </div>
+            <div class="cart-footer">
+                <h3>Your total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+                
+                <button class="banner-btn" onclick="mostrarFinalCompra()">Purchase</button>
+
+            </div>
+        </div>
+    </div>
+    <!--end cart-->
+    <script defer src="js/alert.js"></script>
+    <script defer src="js/app.js"></script>
+</body>
+</html>

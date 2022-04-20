@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Lord of the Rings",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./images/product-1.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "The Weel of Time",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/product-2.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Rebellion Farm",
+        "price": 12.99,
+        "image": { "fields": { "file": { "url": "./images/product-3.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "I, Robot",
+        "price": 22.99,
+        "image": { "fields": { "file": { "url": "./images/product-4.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "The Hobbit",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "./images/product-5.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Harry Potter",
+        "price": 32.99,
+        "image": { "fields": { "file": { "url": "./images/product-6.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "couch",
+        "price": 45.99,
+        "image": { "fields": { "file": { "url": "./images/product-7.jfif" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "The Colour out Space",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./images/product-8.jfif" } } }
+      }
+    }
+  ]
+}
